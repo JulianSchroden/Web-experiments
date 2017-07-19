@@ -239,36 +239,3 @@ function QueueLayout(){
 	}
 	
 }
- 
-
- 
- 
- /*
-
-<yt-live-chat-text-message-renderer class="style-scope yt-live-chat-item-list-renderer x-scope yt-live-chat-text-message-renderer-0" id="CjoKGkNKT3BxcFhOaHRVQ0ZaZTVxZ29kSWpzS2ZnEhxDSktDMHJESmh0VUNGWXMxRFFvZFhWMEdNUTM0" author-type="">
-	<img is="yt-img" id="author-photo" class="no-transition style-scope yt-live-chat-text-message-renderer" height="32" width="32" src="https://yt3.ggpht.com/-AaZ0G2ofu8k/AAAAAAAAAAI/AAAAAAAAAAA/PrwLQWm_shk/s32-c-k-no-mo-rj-c0xffffff/photo.jpg" alt="" loaded="">
-	<div id="content" class="style-scope yt-live-chat-text-message-renderer">
-		<span id="timestamp" class="style-scope yt-live-chat-text-message-renderer">5:45 PM</span>
-		<span id="author-badges" class="style-scope yt-live-chat-text-message-renderer"></span>
-		<span id="author-name" dir="auto" class="style-scope yt-live-chat-text-message-renderer" type="">TrickySylveon</span>
-		​<span id="message" dir="auto" class="style-scope yt-live-chat-text-message-renderer">well u dont know where it is﻿ XD</span>
-		<yt-formatted-string id="deleted-state" class="style-scope yt-live-chat-text-message-renderer x-scope yt-formatted-string-0"></yt-formatted-string>
-		<a id="show-original" href="#" class="style-scope yt-live-chat-text-message-renderer"></a>
-	</div>
-	<div id="menu" class="style-scope yt-live-chat-text-message-renderer">
-		<paper-icon-button id="menu-button" icon="yt-icons:more_vert" class="style-scope yt-live-chat-text-message-renderer x-scope paper-icon-button-0" role="button" tabindex="0" aria-disabled="false" aria-label="Kommentaraktionen">
-			<iron-icon id="icon" class="style-scope paper-icon-button x-scope iron-icon-0">
-				<svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" class="style-scope iron-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;">
-					<g class="style-scope iron-icon">
-						<path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z" class="style-scope iron-icon"></path>
-					</g>
-				</svg>
-			</iron-icon>
-		</paper-icon-button>
-	</div>
-	<div id="inline-action-button-container" class="style-scope yt-live-chat-text-message-renderer" aria-hidden="true">
-		<div id="inline-action-buttons" class="style-scope yt-live-chat-text-message-renderer"></div>
-	</div>
-</yt-live-chat-text-message-renderer>
-
-*/
