@@ -59,8 +59,10 @@ function MessageItem(timestamp,author,message){
 
 var messageQueue=new Queue(); //stores the selected messages
 var queueMessageCounter=createMessageCounter(); // displays the number of messages, which are in the queue
-var queueLayout=new QueueLayout(); // displays the fist message
+var queueLayout=new QueueLayout(); // displays the fist message of the queue
 
+
+// updateMessageItems is used to attach a click event handler to yt-live-chat-text-message-renderer items
 setInterval(updateMessageItems, 1000/2);
 function updateMessageItems(){
 	var elem=document.getElementsByTagName("yt-live-chat-text-message-renderer");
@@ -87,7 +89,7 @@ function updateMessageItems(){
 		console.log("Modded "+newElementCounter+" new Elements.");
 }
 
-
+// adds a counter to the chat-header
 function createMessageCounter(){
 	var messageCounter=document.getElementById("queueIndicator");
 	if(messageCounter==null){	
@@ -119,7 +121,7 @@ function createMessageCounter(){
 		});
 		
 		
-		// add text node and insert into chat header
+		// add messageCounter node to chat-header
 		var text=document.createTextNode(messageQueue.length);
 		messageCounter.appendChild(text);
 		var layoutFrame=document.getElementsByTagName("yt-live-chat-header-renderer")[0];
